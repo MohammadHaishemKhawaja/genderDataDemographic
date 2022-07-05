@@ -1,0 +1,8 @@
+x = input("How many male? ")
+y = input("How many female? ")
+
+z = (int(x))+(int(y))
+m = (int(x))*100/(int(z))
+f = (int(y))*100/(int(z))
+print(f"Percent males: {(int(m))}")
+print(f"Percent females: {(int(f))}")
